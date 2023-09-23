@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="cucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Stepdef.Runner" time="0.448">
+    <testsuite name="Test the Login functionality" time="0.448">
+      <testcase name="Test Login Success with valid credentials" classname="Test the Login functionality" time="0.448">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user is on login page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters uname and password")
+public void user_enters_uname_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on login button")
+public void clicks_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is navigated to the home")
+public void user_is_navigated_to_the_home() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
